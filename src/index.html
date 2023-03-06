@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestionnaire d'évènements</title>
+</head>
+<body>
+  <div id="main-map">
+    <div class="form-panel">
+      <form novalidate class="form">
+        <div class="form-control">
+          <label for="title" class="form-label">Titre de l'évènement</label>
+          <input type="text" id="title" name="firstname" placeholder="Votre évènement" class="form-input">
+        </div>
+
+        <div class="form-control">
+          <label for="description" class="form-label">Description</label>
+          <textarea id="description" name="subject" placeholder="Description de l'évènement ici" rows="12" class="form-input"></textarea>
+        </div>
+
+        <div class="form-control">
+          <label for="lng" class="form-label">Longitude</label>
+          <input type="number" id="lng" name="lastname" placeholder="Longitude" class="form-input">
+        </div>
+
+        <div class="form-control">
+          <label for="lat" class="form-label">Latitude</label>
+          <input type="text" id="lat" name="lastname" placeholder="Latitude" class="form-input">
+        </div>
+
+        <div class="form-control">
+          <label for="start-date" class="form-label">Date de début</label>
+          <input type="datetime-local" id="start-date" name="lastname" placeholder="Latitude" class="form-input">
+        </div>
+
+        <div class="form-control">
+          <label for="finish-date" class="form-label">Date de fin</label>
+          <input type="datetime-local" id="finish-date" name="lastname" placeholder="Latitude" class="form-input">
+        </div>
+
+        <input type="submit" value="Créer l'évènement" id="submit" class="form-submit">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
